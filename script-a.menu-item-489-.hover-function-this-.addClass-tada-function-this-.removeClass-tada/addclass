@@ -1,0 +1,10 @@
+<script>
+$("a.menu-item-489").hover(
+  function () {
+    $(this).addClass("tada");
+  },
+  function () {
+    $(this).removeClass("tada");
+  }
+);
+</script>
