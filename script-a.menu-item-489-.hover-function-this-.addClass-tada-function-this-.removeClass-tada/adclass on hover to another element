@@ -1,0 +1,10 @@
+<script>
+$("li.something").hover(
+  function () {
+    $("li.otherelement").addClass("newclassadd");
+  },
+  function () {
+    $("li.otherelement").removeClass("newclassremove");
+  }
+);
+</script>
